@@ -29,9 +29,9 @@ graph TD
 | Feature | Implementation | Rubric Item |
 | :--- | :--- | :--- |
 | **Strategy Pattern** | Pluggable `RiskStrategy` interface (WeightedAverage, etc.) | Software Design |
-| **JDBC Persistence** | `JdbcRiskRepository` with audit logging | Database (5 Marks) |
+| **JDBC Persistence** | `JdbcRiskRepository` with audit logging | Database |
 | **Data Export** | `DataExportService` generating CSV reports | File Handling |
-| **Unit Testing** | JUnit 5 & Mockito test suite | Testing (25 Marks) |
+| **Unit Testing** | JUnit 5 & Mockito test suite | Testing |
 | **AI Diagnostics** | "Arya" AI agent for natural language risk explanations | Agentic Intelligence |
 | **Security** | JWT authentication, BCrypt hashing, rate limiting, Helmet.js | Security |
 
