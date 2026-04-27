@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build and Distribution
+**/dist/
+**/target/
+**/build/
+*.jar
+*.war
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# IDE / Editor
+.idea/
+.vscode/
+*.iml
+*.swp
+*.sublime-project
+*.sublime-workspace
+
+# OS / System
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Project Specific
+core-engine/exports/
+*.csv
+.angular/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
